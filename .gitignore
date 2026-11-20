@@ -1,0 +1,15 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.venv/
+venv/
+backend/.env
+frontend/.env
+backend/instance/*.db*
+backend/uploads/*
+backend/backups/*
+!backend/uploads/.gitkeep
+!backend/backups/.gitkeep
+!backend/instance/.gitkeep
+.pytest_cache/
